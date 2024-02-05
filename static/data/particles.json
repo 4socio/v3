@@ -7,7 +7,7 @@
         }
       },
       "color": {
-        "value": ["#3C33FF", "#33B5FF", "#33ECFF"]
+        "value": ["#00ff00", "#33B5FF", "#33ECFF"]
       },
       "size": {
         "value": 3,
