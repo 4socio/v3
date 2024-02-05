@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Password Protected Site</title>
+    <title>Password Protected Site</title>
 </head>
 <body>
-	<form action="submitPassword" method="post">
-		<label for="password">Enter password:</label>
-		<input type="password" id="password" name="password">
-		<input type="submit" value="Submit">
-	</form>
+    <form id="passwordForm" onsubmit="submitPassword(); return false;">
+        <label for="password">Enter password:</label>
+        <input type="password" id="password" name="password">
+        <input type="submit" value="Submit">
+    </form>
+    <p id="message"></p>
+
+    <script>
+        function submitPassword() {
+            var password = document.getElementById("password").value;
+            if (password === "4socio") {
+                window.location.href = "homepage.html";
+            } else {
+                document.getElementById("message").innerHTML = "Incorrect password. Access denied.";
+            }
+        }
+    </script>
 </body>
 </html>
-<script>
-    function submitPassword() {
-        var password = document.getElementById("password").value;
-        if ("password" = "4socio") {
-            window.location.href = "fakescreen.html";
-        }
-    }
-</script>
