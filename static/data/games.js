@@ -392,7 +392,7 @@ var games = [
     'title': '2048',
     'url': 'https://rawcdn.githack.com/3kh0/3kh0-Assets/f839d26b4770ba137c399dc1a1c6ccf22e5f3565/2048/index.html',
     'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/220px-2048_logo.svg.png'
-  }
+  },
   {
     'id': 'tetriscrath',
     'title': 'Tetris',
